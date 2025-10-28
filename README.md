@@ -41,7 +41,7 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 ### 🧭 **Procedure**
 
 1. Open **STM32CubeIDE**.
-   <img width="1050" height="591" alt="image" src="https://github.com/user-attachments/assets/109135f6-e6f9-46f8-86e1-ecafa6170b01" />
+   <img width="1200" height="700" alt="stm" src="https://github.com/user-attachments/assets/4d3352ef-858e-407f-b7da-eec0dc8cb1b6" />
 
 2. Click **File → New STM32 Project**.
    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
@@ -109,8 +109,10 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
+![on](https://github.com/user-attachments/assets/5a304f95-fd5e-4292-8ce1-c8486eb8999f)
 
 CASE 2: LED OFF
+![off](https://github.com/user-attachments/assets/8f5e9b1f-7034-4b20-ac06-1772708d3db1)
 
 ---
 ### RESULT
