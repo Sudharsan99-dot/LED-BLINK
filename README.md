@@ -41,14 +41,14 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 ### 🧭 **Procedure**
 
 1. Open **STM32CubeIDE**.
+
    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b96ecbcc-6a03-4065-a8eb-d8dd5b81e0e9" />
 
 2. Click **File → New STM32 Project**.
    
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/09fd5df8-a1d4-49e9-a74b-8cec00b6d0ce" />
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/00e880e3-b1d3-43fa-bea6-6ffe97587fee" />
+ <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/09fd5df8-a1d4-49e9-a74b-8cec00b6d0ce" />
 
-3. Select the **target microcontroller** or board and click **Next**.
+4. Select the **target microcontroller** or board and click **Next**.
    
    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3e798013-b74b-4c7f-a6d7-ce7b271dc3db" />
 
@@ -56,35 +56,35 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
    
    <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
 
-7. The corresponding `.ioc` file will be generated automatically.
+6. The corresponding `.ioc` file will be generated automatically.
    
    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f4441cd2-ef37-4cec-9cab-f16f65ee05fc" />
 
-9. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
+7. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
     
-    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6cd94fd2-9cda-4a8f-918b-1bd2cbcc4b4f" />
+   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6cd94fd2-9cda-4a8f-918b-1bd2cbcc4b4f" />
 
-11. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
+8. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
     
    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f1f4c736-c139-4111-9eb9-d2afc95e31e6" />
 
-13. Edit the generated main program as required.
+9. Edit the generated main program as required.
     
  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/745fef57-05b5-4aee-99b3-0860e093e4dc" />
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0185564b-0ef8-4c81-8d3e-ef97e5674f5d" />
 
-15. Click **Project → Build All**.
+10. Click **Project → Build All**.
     <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/04d241af-c691-4c2c-8e5a-455009fa82b1" />
 
-16. Link the **HEX file** using the post-build process.
+11. Link the **HEX file** using the post-build process.
     
     <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ce41d84c-2b20-4a6b-83d8-99d88aa22d62" />
-    
-18. Click **Debug** and connect the **STM Nucleo Board**.
+   
+12. Click **Debug** and connect the **STM Nucleo Board**.
 
     <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ddfa3663-6d8c-4f49-806c-bba115be483b" />
 
-20. Click **Run** to execute the program.
+13. Click **Run** to execute the program.
     
 ---
 
